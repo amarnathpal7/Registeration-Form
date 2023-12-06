@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<htmllang="en">
+
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" class="css">
+    <title>Registeration Form</title>
+  </head>
+
+  <body>
+    <form>
+      <div class="container">
+        <div class="title">
+          <h1> Registeration Form</h1>
+        </div>
+        <hr>
+        <div>
+          <label><b>NAME:</b></label><br>
+        </div>
+        <input type="text" name="first name" placeholder="First name" size="15" required />
+        <input type="text" name="middle name" placeholder="Middle name" size="15"/>
+        <input type="text" name="last name" placeholder="Last name" size="15" required />
+        <div>
+          <label><b>Father's Name:</b></label><br>
+        </div>
+        <input type="text" name="Enter your Father's Name" placeholder="Enter your Father's Name" size="20" required />
+        <div>
+          <label><b>Mother's Name:</b></label><br>
+        </div>
+        <input type="text" name="Enter your Mother's Name" placeholder="Enter your Mother's Name" size="20" required />
+        <div class="form">
+          <div class="input_field">
+            <label><b>Gender : </b></label>
+            <input type="radio" value="Male" name="gender"> Male
+            <input type="radio" value="Female" name="gender"> Female 
+            <input type="radio" value="Other" name="gender"> Other 
+          </div>
+          <div class="input_field">
+            <label><b>Category : </b></label>
+            <input type="radio" value="Genaral" name="Category"> Genaral
+            <input type="radio" value="OBC" name="Category"> OBC
+            <input type="radio" value="SC/ST" name="Category"> SC/ST
+          </div>
+          <div class="input_field">
+            <label><b>Handicapped : </b></label>
+            <input type="radio" value="Yes" name="Handicapped"> Yes
+            <input type="radio" value="No" name="Handicapped"> No
+          </div>
+          <div class="input_field">
+            <label><b>EWS : </b></label>
+            <input type="radio" value="Yes" name="EWS"> Yes
+            <input type="radio" value="No" name="EWS"> No
+          </div>
+          <div class="input_field">
+            <label><b>DATE OF BIRTH: </b></label>
+            <input type="date">
+          </div>
+          <div class="input_field">
+            <label><b>Course : </b></label>
+            <select>
+              <option value="Course">Enter Course</option>
+              <option value="BCA">BCA</option>
+              <option value="BBA">BBA</option>
+              <option value="B.Tech">B.Tech</option>
+              <option value="MBA">MBA</option>
+              <option value="MCA">MCA</option>
+              <option value="M.Tech">M.Tech</option>
+            </select>
+          </div>
+          <div class="input_field">
+            <label> <b>Mobile No : </b></label>
+            <input type="number" name="phone" placeholder="Phone no." size="10" / required><br>
+          </div>
+          <div class="input_field">
+            <label><b>Email ID:</b></label>
+            <input type="email" placeholder="Enter Email" name="email" required> <br>
+          </div>
+          <div class="input_field">
+            <lebel><b>Current Address : </b></lebel><br>
+            <textarea cols="80" rows="4" placeholder="Current Address" value="address" required></textarea>
+          </div>
+          <div class="input_field">
+            <label><b>Upload Photo:</b></label>
+            <input type="file">
+          </div>
+          <div class="input_field">
+            <label><b>Upload signature:</b></label>
+            <input type="file">
+          </div>
+        </div>
+        <button type="submit" class="registerbtn">Register</button>
+      </div>
+    </form>
+  </body>
+
+  </html>
